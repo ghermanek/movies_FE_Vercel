@@ -65,8 +65,8 @@
                           <div v-if="!movieUpdated">
                           <!-- movie image -->
                           <div v-if="movie.movie_image" class="movie-image">
-                            <img :src="`${URL}${movie.movie_image}`" alt="Movie Picture" class="img-thumbnail" />
-                            <!--<img :src="movie.movie_image" alt="Movie Picture" class="img-thumbnail" /> -->
+                            <!--<img :src="`${URL}${movie.movie_image}`" alt="Movie Picture" class="img-thumbnail" /> -->
+                            <img :src="movie.movie_image" alt="Movie Picture" class="img-thumbnail" />
                           </div>
                           <div v-else class="movie-image">
                             No Image
